@@ -8,7 +8,6 @@ import NotificationsOutlinedIcon from '@mui/icons-material/NotificationsOutlined
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import SearchIcon from '@mui/icons-material/Search';
-import { flexbox } from '@mui/system';
 
 const Topbar = () => {
     const theme = useTheme();
@@ -20,7 +19,7 @@ const Topbar = () => {
             {/* Search Bar */}
             <Box
                 display="flex"
-                backgroundColor={colors.primary[700]}
+                backgroundColor={colors.primary[400]}
                 borderRadius="3px"
             >
                 <InputBase sx={{ ml: 2, flex: 1 }} placeholder="Search" />
